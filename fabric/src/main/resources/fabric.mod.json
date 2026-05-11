@@ -8,7 +8,7 @@
     "${mod_author}"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
+    "homepage": "${mod_url}",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
   "license": "${license}",
@@ -26,7 +26,7 @@
   "depends": {
     "fabricloader": ">=${fabric_loader_version}",
     "fabric-api": "*",
-    "minecraft": "${minecraft_version}",
+    "minecraft": ">=1.21 <1.22",
     "java": ">=${java_version}"
   },
   "suggests": {
