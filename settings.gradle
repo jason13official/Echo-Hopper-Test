@@ -48,4 +48,3 @@ rootProject.name = 'Echo-Hopper-Test'
 include('common')
 include('fabric')
 include('neoforge')
-include('forge')
